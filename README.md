@@ -25,6 +25,7 @@ Developed by: Logesh B
 RegisterNumber: 24900577
 */
 ```
+```.py
 import pandas as pd  
 import numpy as np  
 data=pd.read_csv("Placement_Data.csv")  
@@ -72,6 +73,7 @@ print("Actual:\n",y.values)
 xnew=np.array([[0,87,0,95,0,2,78,2,0,0,1,0]])  
 y_prednew=predict(theta,xnew)  
 print("Predicted Result:",y_prednew)  
+```
 ## Output:
 ![logistic regression using gradient descent](sam.png)
 ![Screenshot 2024-11-18 193242](https://github.com/user-attachments/assets/185db4f8-58bb-4507-8f17-2a8015811105)
